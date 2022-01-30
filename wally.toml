@@ -1,5 +1,5 @@
 [package]
-name = "eldon/basicstate"
+name = "eldonwilliams/basicstate"
 description = "BasicState without DevDeps to--hopefully--allow installation."
 version = "0.2.3"
 license = "MIT"
