@@ -1,3 +1,6 @@
+# Terse edition
+To get support for wally, this project removes all testing and dev-dependencies so that wally can work.
+
 <!-- Project Link References -->
 
 [ci status]: https://github.com/csqrl/BasicState/actions
