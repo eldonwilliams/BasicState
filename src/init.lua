@@ -32,7 +32,7 @@ function State:__joinDictionary(...)
 	local NewDictionary = {}
 
 	for _, Dictionary in next, { ... } do
-		if type(Dictionary) ~= "table" then
+		if type(Dictionary) ~= "table" or getmetatable(Dictionary) ~= nil then
 			continue
 		end
 
